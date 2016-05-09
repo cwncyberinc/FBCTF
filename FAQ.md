@@ -18,10 +18,12 @@ The difficulty of any the game depends entirely on the challenges chosen by the 
 
 * Organize a competition. This can be with as few as two participants and up to several thousand. Players can participate in-person, online, or a combination of the two. 
 * Follow the setup instructions in GitHub repo to spin up the platform infrastructure. 
-* Enter challenges into Admin Panel
+* Enter challenges into Admin Panel. For a step-by-step guide, please see the "demo_levels" file in this repo. 
 * Register participants in teams
 * Hack away!
 
 ## How do I access the private repo of challenges? 
 
 To make hosting CTFs as easy as possible, we've released a small private repository of challenges used at previous events as well as those submitted by outside contributors. This repo includes challenges on reverse-engineering, forensics, web application security, cryptology, and basic system administration, all focused primarily on collegiate competitors. If you’re an organizer and would like access to this repo, please email ctf@fb.com with your Github username and background on the event.
+
+For samples of challenges and quizzes, please see the "demo_levels" file in this repository.
