@@ -9,4 +9,4 @@ Flags are problems that you need to exploit or break. The end goal of a flag que
 
 The FBCTF platform also allows for hints, which may be provided by the organizer. In some cases, hints will be in the problem description. In other cases, you will see a hint button below the challenge. If there is no hint penalty, clicking on the hint button will display the hint. If there is a penalty, the penalty will be displayed on the button, and you can pay the penalty to access the hint, if you have enough points to do so.
 
-For samples of challenges and quizzes, please see the "demo_levels" file in this repository. 
+For samples of challenges and quizzes, please see the [demo_levels] (https://github.com/facebook/fbctf/tree/master/demo_levels) file in this repository. 
