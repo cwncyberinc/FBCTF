@@ -1,3 +1,4 @@
+![](http://i.giphy.com/3oEjHEwH4TqJtHmug8.gif)
 ![](https://scontent-sea1-1.xx.fbcdn.net/t31.0-8/13173261_10153680823416242_7731532368858037328_o.jpg)
 
 ## Welcome to the FBCTF wiki!   
