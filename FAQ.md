@@ -10,7 +10,7 @@ CTFs are a proven resource for teaching and demonstrating practical application 
 
 ## Who can use the Facebook CTF?
 
-Facebook CTF retains a Creative Commons (CC) License, which means it can be used by any non-commercial entity for educational purposes. The platform was built with education and competition organizers in mind. Dozens of high school and college-level student clubs, national competition organizations, educational institutions, and industry groups have already run successful competitions using the Facebook CTF platform. 
+Facebook CTF retains a Creative Commons (CC) License. The platform was built with education and competition organizers in mind. Dozens of high school and college-level student clubs, national competition organizations, educational institutions, and industry groups have already run successful competitions using the Facebook CTF platform. 
 
 The difficulty of any the game depends entirely on the challenges chosen by the organizer. The user experiences was designed to be easy enough for anyone to use. Facebook has hosted CTFs across all age and skill levels from middle school to advanced security engineers. 
 
