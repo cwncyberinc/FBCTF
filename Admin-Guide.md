@@ -8,28 +8,32 @@ The *Begin Game* button starts an event, and automatically performs several func
 **Configuration**
 
 This is the default admin page where registration, login, and game settings take place.
-![](http://imgur.com/DVZ07Ur)
+
+![](http://i.imgur.com/DVZ07Ur.png)
 
 **Registration**
 
 By default, *Registration* is turned off. In this mode, administrators must manually register players. Any players attempting to self register will get a *Team Registration Not Available* page.
 
-Turning *Registration* on allows players to self register for an event. Two registration types are available. In *Open* mode, registration is public. In *Tokenized* mode, admins must generate and distribute tokens to registering players. These tokens are required as input when registering a team.
+Turning *Registration* on allows players to self register for an event. Two registration types are available. In *Open* mode, registration is public. In login *Tokenized* mode, admins must generate and distribute tokens to registering players. These tokens are required as input when registering a team.
 
 *Player Names* can be enabled, allowing registering teams to input names and email addresses for their players. The number of *Players Per Team* can be changed from the default of *3*.
-![](http://imgur.com/MMiulzM)
+
+![](http://i.imgur.com/MMiulzM.png)
 
 **Login**
 
 *Login* is enabled by default, but can be disabled, preventing any teams from logging in. However, admins are able to login regardless.
-![](http://imgur.com/Dthjltd)
+
+![](http://i.imgur.com/Dthjltd.png)
 
 *Team Selection* can be enabled, in order to present users with a dropdown box when logging in. By default, they will need to type in a team name.
 
 **Active Directory / LDAP**
 
 This feature allows authentication to be handled by an LDAP server. This may ease administration of a larger event.
-![](http://imgur.com/zdzbl7j)
+
+![](http://i.imgur.com/zdzbl7j.png)
 
 **Game**
 
@@ -42,7 +46,8 @@ The *Scoring* option allows for teams to capture levels such as *Quizzes*, *Flag
 *Progressive Cycle (S)* represents the number of seconds between each refresh of the Progressive Scoreboard. This is accessed on the *Gameboard* by clicking *Scoreboard* at the top of the screen during an event.
 
 The *Default Bonus* is by default set to 30 points. This is the bonus awarded to the first team capturing a particular *Level*. *Default Bonus Dec* is by default set to 10 points, and decrements from the *Default Bonus* by this amount during each distinct team capture. For example, using the above values, the first team to capture a level will be rewarded with a 30 point bonus. The second team will be awarded a 20 point bonus, and the third team 10 points. Subsequent teams in this scenario will receive no bonus for the Level in question.
-![](http://imgur.com/bTxSpoB)
+
+![](http://i.imgur.com/bTxSpoB.png)
 
 **Timer**
 
@@ -53,24 +58,28 @@ The *Server Time* represents the time as set on the system, and cannot be modifi
 *Game Duration* is set to 3 hours by default, and works in conjunction with the *Timer* to show teams how much time is left in an event. Note that admins must still manually stop the event, in order to prevent teams from capturing levels post event.
 
 *Begin Time* and *Expected End Time* are calculated based on when the event was started manually, and the set game duration time.
-![](http://imgur.com/CREWScj)
+
+![](http://i.imgur.com/CREWScj.png)
 
 **Language Change**
 
 FBCTF supports a wide range of languages, which can be changed by selecting the appropriate language at the bottom of the *Admin Configuration* page. More languages are constantly being added to the platform. If you'd like to use a language we don't currently support, file a PR! 
-![](http://imgur.com/jiYMS2t)
+
+![](http://i.imgur.com/jiYMS2t.png)
 
 **Controls**
 
 The *Controls* tab enables administrators to import and export various elements of an event. This allows for easier management of events.
 
 Several utilities are also included in the controls tab. *Flush Memcached* should be used whenever the database is changed directly, and in some other more advanced use cases. *Reset Database* can be used to purge all data and reset the database to defaults. Note that admin accounts will remain intact.
-![](http://imgur.com/FA0FFjz)
+
+![](http://i.imgur.com/FA0FFjz.png)
 
 **Announcements**
 
 *Announcements* allow admins to send out global messages to teams participating in an event. These will show up in real time on team sidebars.
-![](http://imgur.com/59dGTlN)
+
+![](http://i.imgur.com/59dGTlN.png)
 
 **Levels: Quiz**
 
@@ -87,7 +96,8 @@ Points should be assigned to the Quiz, based on either the difficulty of the Qui
 By default, Quizzes are assigned to a random country. This value can be overridden by admins, if they desire a particular country for the Quiz.
 
 Quizzes are always assigned to the *Quiz* category. This allows teams to filter visibility of Quizzes.
-![](http://imgur.com/LoxQ8AA)
+
+![](http://i.imgur.com/LoxQ8AA.png)
 
 **Levels: Flag**
 
@@ -104,7 +114,8 @@ Points should be assigned to the Flag, based on either the difficulty of the Fla
 By default, Flags are assigned to a random country. This value can be overridden by admins, if they desire a particular country for the Flag.
 
 Flags can also be assigned to different *Categories*. By default, the Category is set to *None.* Admins must first create categories in the *Levels: Categories* tab. When utilizing Categories, teams will be able to filter Flag visibility based on the Category.
-![](http://imgur.com/8J0L7Y2)
+
+![](http://i.imgur.com/8J0L7Y2.png)
 
 **Levels: Bases**
 
@@ -125,17 +136,20 @@ The *Keep Points* field rewards capturing Teams with an ongoing number of points
 By default, Bases are assigned to a random country. This value can be overridden by admins, if they desire a particular country for the Base.
 
 Bases can also be assigned to different *Categories*. By default, the Category is set to *None.* Admins must first create categories in the *Levels: Categories* tab. When utilizing Categories, teams will be able to filter Base visibility based on the Category.
-![](http://imgur.com/7TfSQiC)
+
+![](http://i.imgur.com/7TfSQiC.png)
 
 **Levels: Categories**
 
 The *Categories* tab allows admins to create distinct categories, in order to group *Flags*. This can be helpful for organization when many flags exist in an event.
-![](http://imgur.com/WXqUiLS)
+
+![](http://i.imgur.com/WXqUiLS.png)
 
 **Levels: Countries**
 
 The *Countries* tab allows admins to globally enable and disable countries utilized in an event. To enable or disable a country, click *Enabled* or *Disabled* to the right of the country in question.
-![](http://imgur.com/sJZ7mLt)
+
+![](http://i.imgur.com/sJZ7mLt.png)
 
 **Teams**
 
@@ -156,7 +170,8 @@ The *Visibility* of a Team can be disabled, removing it from the scoreboard comp
 Deleting a team can be performed by clicking the *Edit* button for the team in question, followed by *Delete*. Note that this will remove all remnants of the team, including scoring and logs. If you wish to preserve these areas, *Disable* the team instead.
 
 The Teams tab also allows for viewing the status of a team, including *Names* participating in the team, details on the team *Score*, and capture *Failures*. These areas are accessed by utilizing the menu slider above each team.
-![](http://imgur.com/soReLj4)
+
+![](http://i.imgur.com/soReLj4.png)
 
 **Teams: Logos**
 
@@ -165,7 +180,8 @@ The *Logos* admin tab is used to globally enable and disable logos in the emblem
 Click the *Enable* or *Disable* button next to each emblem, in order to change its status.
 
 Click the dropdown box next to a particular emblem, in order to see all teams utilizing it.
-![](http://imgur.com/ch2Bcu9)
+
+![](http://i.imgur.com/ch2Bcu9.png)
 
 **Teams: Sessions**
 
@@ -178,8 +194,11 @@ The *Sessions* tab is used to track and manage individual login sessions to the 
 *Last Page Access* displays the last page a session loaded. This is designed to give a general idea of a session’s status. Note that background refreshes are generally not included in this metric. For example, a team residing on the *Scoreboard* page will not trigger a *Last Page Access* update.
 
 Sessions can be deleted by clicking the *Edit* button, followed by *Delete*. Note that sessions are automatically deleted and invalidated when disabling or deleting teams.
-![](http://imgur.com/wkI61MK)
+
+![](http://i.imgur.com/wkI61MK.png)
 
 **Game Logs**
 
 *Game Logs* section provides event admins with a timeline of capture activity. This area provides information on both successes and failures for each team, along with other details such as number of points, and the capture text on failures. This allows admins to review submitted responses from each team.
+
+![](http://i.imgur.com/zr7uA0l.png)
