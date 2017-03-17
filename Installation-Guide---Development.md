@@ -3,7 +3,7 @@
 The FBCTF platform was designed with flexibility in mind, allowing for different types of installations, depending on the needs of the end user. The FBCTF platform can be installed either in Development Mode, or Production Mode. Development is for development, and production is intended for live events utilizing the FBCTF platform. 
 
 
-**Development Installation**
+## Development Installation
 
 Development is intended for FBCTF development. There are several commonalities, regardless of development installation method.
 
@@ -12,7 +12,7 @@ The operating system for the FBCTF platform should be Ubuntu 14.04 x64. This is 
 The default admin username and password for the FBCTF platform will always be admin and password.
 
 
-**Vagrant (Preferred)**
+## Vagrant (Preferred)
 
 It is highly recommended that you utilize a Vagrant VM to perform development of the platform. This provides a consistent environment for developers.
 
@@ -69,7 +69,7 @@ If you are using a non-English locale on the host system, you may run into probl
 `LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 vagrant up`
 
 
-**Docker (Alternate)**
+## Docker (Alternate)
 
 Although Vagrant is the recommended installation method for Development, you can provision a system through Docker if desired.
 
@@ -100,7 +100,7 @@ After installing the FBCTF platform, access it through your web browser using th
 Login with the credentials admin and password by clicking the Login link at the top right of the window. You will then be redirected to the administration page. The gameboard can be accessed at the bottom of the navigation bar located on the left side of the window.
 
 
-**Manual (Alternate)**
+## Manual (Alternate)
 
 Although Vagrant is the recommended installation method for Development, you can provision a system manually if desired.
 
