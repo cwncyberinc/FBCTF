@@ -1,6 +1,6 @@
 ## What is a CTF? 
 
-CTF, which stands for “Capture the Flag,” is a computer-based competition used to teach information security skills through hands-on experience. Players earn points and gain control of the game map by completing tasks with their team that identify potential threats and secure computers and networks against virtual attacks. Because learning attack techniques is often the best way to learn how to protect against them, CTFs teach both defense and offense skills. Points are awarded to teams on the basis of speed and accuracy. At the end of the allotted time, the team with the most points is declared the winner.
+CTF, which stands for “Capture the Flag,” is a computer-based competition used to teach information security skills through hands-on experience. Players earn points and gain control of the game map by completing tasks with their team that identify potential threats, and secure computers and networks against virtual attacks. Because learning attack techniques is often the best way to learn how to protect against them, CTFs teach both defense and offense skills. Points are awarded to teams on the basis of speed and accuracy. At the end of the allotted time, the team with the most points is declared the winner.
 
 ## Why did Facebook create this? 
 
