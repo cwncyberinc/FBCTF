@@ -18,7 +18,7 @@ The difficulty of any the game depends entirely on the challenges chosen by the 
 
 * Organize a competition. This can be with as few as two participants and up to several thousand. Players can participate in-person, online, or a combination of the two. 
 * Follow the setup instructions in GitHub repo to spin up the platform infrastructure. 
-* Enter challenges into Admin Panel. For a step-by-step guide, please see the [demo_levels] (https://github.com/facebook/fbctf/tree/master/demo_levels) file in this repo. 
+* Enter challenges into Admin Panel. For a step-by-step guide, please see the [demo_levels](https://github.com/facebook/fbctf/tree/master/demo_levels) file in this repo. 
 * Register participants in teams
 * Hack away!
 
