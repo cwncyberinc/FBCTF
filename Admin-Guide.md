@@ -51,7 +51,7 @@ The *Default Bonus* is by default set to 30 points. This is the bonus awarded to
 
 **Timer**
 
-The *Timer* is enabled automatically during the start of an event, and shows a game timer on team displays, based on the values utilized below. Note that the game timer is currently display only, and games must be started, paused, and ended manually by admins. The Timer can be disabled completed for events which have no time limit.
+The *Timer* is enabled automatically during the start of an event, and shows a game timer on team displays, based on the values utilized below. Note that the game timer is currently display only, and games must be started, paused, and ended manually by admins. The Timer can be disabled completely for events which have no time limit.
 
 The *Server Time* represents the time as set on the system, and cannot be modified directly.
 
